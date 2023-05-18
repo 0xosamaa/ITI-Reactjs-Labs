@@ -1,0 +1,22 @@
+footer {
+    background-color: #203725;
+    color: wheat;
+    max-width: 100%;
+    padding: 3rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer a:hover {
+    color: rgb(246, 229, 195);
+}
+
+footer .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}

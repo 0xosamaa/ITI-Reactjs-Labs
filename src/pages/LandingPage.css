@@ -1,0 +1,48 @@
+.about {
+    padding: 5rem 0;
+}
+.about .title {
+    text-align: left;
+}
+
+.about .description {
+    text-align: left;
+}
+.about button {
+    text-align: left !important;
+}
+
+.progress {
+    background-color: rgb(246, 229, 195) !important;
+    width: 100%;
+}
+.skill-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill-progress > h5 {
+    margin-right: 0.5rem;
+}
+
+hr {
+    width: 50%;
+}
+.my-focus {
+    text-align: left;
+}
+
+.my-focus > ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.portfolio {
+    padding-top: 4rem;
+}
+
+.portfolio .card {
+    margin-bottom: 4rem;
+    background-color: rgb(246, 229, 195);
+}
