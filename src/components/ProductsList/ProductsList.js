@@ -15,7 +15,7 @@ const ProductsList = () => {
     }, []);
 
     return (
-        <div className="row products">
+        <div className="row products my-5">
             {products ? (
                 products.map((product) => {
                     return (

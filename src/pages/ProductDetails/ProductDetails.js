@@ -17,10 +17,24 @@ const ProductDetails = () => {
     }, []);
 
     return product ? (
-        <div className="container product-details">
+        <div className="container product-details my-5">
             <div className="row">
-                <div className="col-12 col-md-8">
+                <div className="col-12 col-md-8 images">
                     <img src={product.thumbnail} />
+                    <div style={{ margin: '1rem 0' }}>
+                        {product.images.map((image, idx) => {
+                            return (
+                                <img
+                                    style={{
+                                        width: '6rem',
+                                        marginRight: '1rem',
+                                    }}
+                                    src={image}
+                                    key={idx}
+                                />
+                            );
+                        })}
+                    </div>
                 </div>
                 <div className="col-12 col-md-4">
                     <h2>{product.title}</h2>
