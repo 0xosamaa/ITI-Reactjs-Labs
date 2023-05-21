@@ -1,0 +1,9 @@
+.product-details {
+    min-height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-details img {
+    width: 100%;
+}

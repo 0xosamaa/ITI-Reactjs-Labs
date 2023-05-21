@@ -1,0 +1,12 @@
+.card {
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.card-img {
+    overflow: hidden;
+    transition: transform 0.1s ease-in;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+}
